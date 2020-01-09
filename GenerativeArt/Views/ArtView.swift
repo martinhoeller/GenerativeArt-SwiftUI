@@ -5,7 +5,6 @@ struct ArtView: View {
 
     @State private var image: UIImage?
     @State private var numColors = 32.0
-    @State var quantity: Int = 0
 
     private let availableColors: [UIColor] = [
         UIColor(red:0.98, green:0.93, blue:0.41, alpha:1.0),
@@ -18,10 +17,8 @@ struct ArtView: View {
 
     var body: some View {
         VStack(spacing: 20) {
-            VStack(alignment: .leading, spacing: 4) {
-                Text("Colors: \(Int(numColors))")
-                ColorsSlider(numColors: $numColors, onEditingChanged: regenerateImage)
-            }.padding([.leading, .trailing])
+            ColorsSlider(numColors: $numColors, onEditingChanged: regenerateImage)
+                .padding([.leading, .trailing])
 
             Group {
                 Image(uiImage: image ?? UIImage())
@@ -30,7 +27,6 @@ struct ArtView: View {
                     .padding(.all, 20)
                     .background(Color.black)
             }.padding(10)
-
 
             Button("Regenerate Image", action: regenerateImage)
         }
