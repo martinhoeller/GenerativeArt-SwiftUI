@@ -22,9 +22,16 @@ struct ArtView: View {
                 Text("Colors: \(Int(numColors))")
                 ColorsSlider(numColors: $numColors, onEditingChanged: regenerateImage)
             }.padding([.leading, .trailing])
-            Image(uiImage: image ?? UIImage())
-                .resizable()
-                .aspectRatio(contentMode: .fit)
+
+            Group {
+                Image(uiImage: image ?? UIImage())
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .padding(.all, 20)
+                    .background(Color.black)
+            }.padding(10)
+
+
             Button("Regenerate Image", action: regenerateImage)
         }
         .navigationBarTitle(Text(style.name))
