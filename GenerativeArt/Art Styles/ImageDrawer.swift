@@ -1,14 +1,8 @@
 import UIKit
 
 public class ImageDrawer {
-    private let artStyle: ArtStyle
-
-    public init(artStyle: ArtStyle) {
-        self.artStyle = artStyle
-    }
-
-    public func image(fromColors colors: [UIColor], size: CGSize, margin: CGFloat) -> UIImage? {
-        let drawer = artStyle.drawer
+    public static func image(style: ArtStyle, colors: [UIColor], size: CGSize, margin: CGFloat) -> UIImage? {
+        let drawer = style.drawer
 
         guard colors.count >= drawer.minColors else { return nil }
 

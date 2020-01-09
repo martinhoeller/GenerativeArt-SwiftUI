@@ -7,7 +7,7 @@ struct ArtStyleListView: View {
         List {
             ForEach(artStyles, id: \.self) { style in
                 NavigationLink(
-                    destination: ArtView(selectedStyle: style)
+                    destination: ArtView(style: style)
                 ) {
                     Text(style.name)
                 }

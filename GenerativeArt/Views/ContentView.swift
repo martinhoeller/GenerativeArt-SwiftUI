@@ -7,7 +7,6 @@ struct ContentView: View {
         NavigationView {
             ArtStyleListView(artStyles: $artStyles)
                 .navigationBarTitle(Text("Art Styles"))
-            ArtView()
         }.navigationViewStyle(DoubleColumnNavigationViewStyle())
     }
 }
