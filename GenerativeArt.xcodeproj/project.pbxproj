@@ -30,6 +30,7 @@
 		5B3337CB23C76FA700BFC0F9 /* ArtStyleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337CA23C76FA700BFC0F9 /* ArtStyleListView.swift */; };
 		5B3337CD23C76FC500BFC0F9 /* ArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337CC23C76FC500BFC0F9 /* ArtView.swift */; };
 		5B3337CF23C7840400BFC0F9 /* ColorsSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337CE23C7840400BFC0F9 /* ColorsSlider.swift */; };
+		5B3337D123C7D06800BFC0F9 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337D023C7D06800BFC0F9 /* ShareSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		5B3337CA23C76FA700BFC0F9 /* ArtStyleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtStyleListView.swift; sourceTree = "<group>"; };
 		5B3337CC23C76FC500BFC0F9 /* ArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtView.swift; sourceTree = "<group>"; };
 		5B3337CE23C7840400BFC0F9 /* ColorsSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsSlider.swift; sourceTree = "<group>"; };
+		5B3337D023C7D06800BFC0F9 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				5B3337CA23C76FA700BFC0F9 /* ArtStyleListView.swift */,
 				5B3337CC23C76FC500BFC0F9 /* ArtView.swift */,
 				5B3337CE23C7840400BFC0F9 /* ColorsSlider.swift */,
+				5B3337D023C7D06800BFC0F9 /* ShareSheet.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				5B3337C223C76C2200BFC0F9 /* RandomStripes.swift in Sources */,
 				5B3337C623C76C2200BFC0F9 /* TriangularMesh.swift in Sources */,
 				5B3337CD23C76FC500BFC0F9 /* ArtView.swift in Sources */,
+				5B3337D123C7D06800BFC0F9 /* ShareSheet.swift in Sources */,
 				5B3337BE23C76C2200BFC0F9 /* Triangles.swift in Sources */,
 				5B33379C23C767D700BFC0F9 /* ContentView.swift in Sources */,
 				5B3337BB23C76C2200BFC0F9 /* CGRect+Convenience.swift in Sources */,

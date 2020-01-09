@@ -5,6 +5,7 @@ struct ArtView: View {
 
     @State private var image: UIImage?
     @State private var numColors = 32.0
+    @State private var showingShareSheet = false
 
     private let availableColors: [UIColor] = [
         UIColor(red:0.98, green:0.93, blue:0.41, alpha:1.0),
@@ -30,10 +31,20 @@ struct ArtView: View {
 
             Button("Regenerate Image", action: regenerateImage)
         }
-        .navigationBarTitle(Text(style.name))
         .onAppear {
             self.regenerateImage()
         }
+        .navigationBarTitle(Text(style.name))
+        .navigationBarItems(trailing:
+            Button(action: {
+                self.showingShareSheet = true
+            }) {
+                Image(systemName: "square.and.arrow.up")
+            }
+            .sheet(isPresented: $showingShareSheet) {
+                ShareSheet(activityItems: [self.image!], applicationActivities: nil)
+            }
+        )
     }
 
     private func makeColors(num: Int) -> [UIColor] {
