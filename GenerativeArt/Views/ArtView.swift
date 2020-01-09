@@ -54,7 +54,7 @@ struct ArtView: View {
     private func regenerateImage() {
         image = ImageDrawer.image(style: style,
                                   colors: makeColors(num: Int(numColors)),
-                                  size: CGSize(width: 500, height: 500),
+                                  size: CGSize(width: 1500, height: 1500),
                                   margin: 20)
     }
 }
