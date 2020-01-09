@@ -13,6 +13,20 @@
 		5B33379E23C767DC00BFC0F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B33379D23C767DC00BFC0F9 /* Assets.xcassets */; };
 		5B3337A123C767DC00BFC0F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B3337A023C767DC00BFC0F9 /* Preview Assets.xcassets */; };
 		5B3337A423C767DC00BFC0F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3337A223C767DC00BFC0F9 /* LaunchScreen.storyboard */; };
+		5B3337BB23C76C2200BFC0F9 /* CGRect+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337AC23C76C2200BFC0F9 /* CGRect+Convenience.swift */; };
+		5B3337BC23C76C2200BFC0F9 /* ImageDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337AD23C76C2200BFC0F9 /* ImageDrawer.swift */; };
+		5B3337BD23C76C2200BFC0F9 /* ArtStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337AE23C76C2200BFC0F9 /* ArtStyle.swift */; };
+		5B3337BE23C76C2200BFC0F9 /* Triangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337B023C76C2200BFC0F9 /* Triangles.swift */; };
+		5B3337BF23C76C2200BFC0F9 /* Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337B123C76C2200BFC0F9 /* Dots.swift */; };
+		5B3337C023C76C2200BFC0F9 /* Stripes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337B223C76C2200BFC0F9 /* Stripes.swift */; };
+		5B3337C123C76C2200BFC0F9 /* BrokenCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337B323C76C2200BFC0F9 /* BrokenCircles.swift */; };
+		5B3337C223C76C2200BFC0F9 /* RandomStripes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337B423C76C2200BFC0F9 /* RandomStripes.swift */; };
+		5B3337C323C76C2200BFC0F9 /* Blocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337B523C76C2200BFC0F9 /* Blocks.swift */; };
+		5B3337C423C76C2200BFC0F9 /* Mondrian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337B623C76C2200BFC0F9 /* Mondrian.swift */; };
+		5B3337C523C76C2200BFC0F9 /* Mosaic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337B723C76C2200BFC0F9 /* Mosaic.swift */; };
+		5B3337C623C76C2200BFC0F9 /* TriangularMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337B823C76C2200BFC0F9 /* TriangularMesh.swift */; };
+		5B3337C723C76C2200BFC0F9 /* ChaoticCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337B923C76C2200BFC0F9 /* ChaoticCircles.swift */; };
+		5B3337C823C76C2200BFC0F9 /* Bullseye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337BA23C76C2200BFC0F9 /* Bullseye.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,20 @@
 		5B3337A023C767DC00BFC0F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B3337A323C767DC00BFC0F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B3337A523C767DC00BFC0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B3337AC23C76C2200BFC0F9 /* CGRect+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Convenience.swift"; sourceTree = "<group>"; };
+		5B3337AD23C76C2200BFC0F9 /* ImageDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDrawer.swift; sourceTree = "<group>"; };
+		5B3337AE23C76C2200BFC0F9 /* ArtStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtStyle.swift; sourceTree = "<group>"; };
+		5B3337B023C76C2200BFC0F9 /* Triangles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangles.swift; sourceTree = "<group>"; };
+		5B3337B123C76C2200BFC0F9 /* Dots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dots.swift; sourceTree = "<group>"; };
+		5B3337B223C76C2200BFC0F9 /* Stripes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stripes.swift; sourceTree = "<group>"; };
+		5B3337B323C76C2200BFC0F9 /* BrokenCircles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrokenCircles.swift; sourceTree = "<group>"; };
+		5B3337B423C76C2200BFC0F9 /* RandomStripes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomStripes.swift; sourceTree = "<group>"; };
+		5B3337B523C76C2200BFC0F9 /* Blocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blocks.swift; sourceTree = "<group>"; };
+		5B3337B623C76C2200BFC0F9 /* Mondrian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mondrian.swift; sourceTree = "<group>"; };
+		5B3337B723C76C2200BFC0F9 /* Mosaic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mosaic.swift; sourceTree = "<group>"; };
+		5B3337B823C76C2200BFC0F9 /* TriangularMesh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangularMesh.swift; sourceTree = "<group>"; };
+		5B3337B923C76C2200BFC0F9 /* ChaoticCircles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaoticCircles.swift; sourceTree = "<group>"; };
+		5B3337BA23C76C2200BFC0F9 /* Bullseye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bullseye.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 		5B33379623C767D700BFC0F9 /* GenerativeArt */ = {
 			isa = PBXGroup;
 			children = (
+				5B3337AB23C76C2200BFC0F9 /* Art Styles */,
 				5B33379723C767D700BFC0F9 /* AppDelegate.swift */,
 				5B33379923C767D700BFC0F9 /* SceneDelegate.swift */,
 				5B33379B23C767D700BFC0F9 /* ContentView.swift */,
@@ -73,6 +102,35 @@
 				5B3337A023C767DC00BFC0F9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B3337AB23C76C2200BFC0F9 /* Art Styles */ = {
+			isa = PBXGroup;
+			children = (
+				5B3337AC23C76C2200BFC0F9 /* CGRect+Convenience.swift */,
+				5B3337AD23C76C2200BFC0F9 /* ImageDrawer.swift */,
+				5B3337AE23C76C2200BFC0F9 /* ArtStyle.swift */,
+				5B3337AF23C76C2200BFC0F9 /* Styles */,
+			);
+			path = "Art Styles";
+			sourceTree = "<group>";
+		};
+		5B3337AF23C76C2200BFC0F9 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				5B3337B023C76C2200BFC0F9 /* Triangles.swift */,
+				5B3337B123C76C2200BFC0F9 /* Dots.swift */,
+				5B3337B223C76C2200BFC0F9 /* Stripes.swift */,
+				5B3337B323C76C2200BFC0F9 /* BrokenCircles.swift */,
+				5B3337B423C76C2200BFC0F9 /* RandomStripes.swift */,
+				5B3337B523C76C2200BFC0F9 /* Blocks.swift */,
+				5B3337B623C76C2200BFC0F9 /* Mondrian.swift */,
+				5B3337B723C76C2200BFC0F9 /* Mosaic.swift */,
+				5B3337B823C76C2200BFC0F9 /* TriangularMesh.swift */,
+				5B3337B923C76C2200BFC0F9 /* ChaoticCircles.swift */,
+				5B3337BA23C76C2200BFC0F9 /* Bullseye.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +205,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B33379823C767D700BFC0F9 /* AppDelegate.swift in Sources */,
+				5B3337C023C76C2200BFC0F9 /* Stripes.swift in Sources */,
+				5B3337C123C76C2200BFC0F9 /* BrokenCircles.swift in Sources */,
+				5B3337BD23C76C2200BFC0F9 /* ArtStyle.swift in Sources */,
 				5B33379A23C767D700BFC0F9 /* SceneDelegate.swift in Sources */,
+				5B3337C823C76C2200BFC0F9 /* Bullseye.swift in Sources */,
+				5B3337C523C76C2200BFC0F9 /* Mosaic.swift in Sources */,
+				5B3337C423C76C2200BFC0F9 /* Mondrian.swift in Sources */,
+				5B3337C223C76C2200BFC0F9 /* RandomStripes.swift in Sources */,
+				5B3337C623C76C2200BFC0F9 /* TriangularMesh.swift in Sources */,
+				5B3337BE23C76C2200BFC0F9 /* Triangles.swift in Sources */,
 				5B33379C23C767D700BFC0F9 /* ContentView.swift in Sources */,
+				5B3337BB23C76C2200BFC0F9 /* CGRect+Convenience.swift in Sources */,
+				5B3337C323C76C2200BFC0F9 /* Blocks.swift in Sources */,
+				5B3337BC23C76C2200BFC0F9 /* ImageDrawer.swift in Sources */,
+				5B3337BF23C76C2200BFC0F9 /* Dots.swift in Sources */,
+				5B3337C723C76C2200BFC0F9 /* ChaoticCircles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

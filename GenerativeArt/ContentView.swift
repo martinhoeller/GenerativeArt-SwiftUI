@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var artStyles = [String]()
+    @State private var artStyles = ArtStyle.allCases
 
     var body: some View {
         NavigationView {
@@ -13,7 +13,7 @@ struct ContentView: View {
 }
 
 struct MasterView: View {
-    @Binding var artStyles: [String]
+    @Binding var artStyles: [ArtStyle]
 
     var body: some View {
         List {
@@ -21,7 +21,7 @@ struct MasterView: View {
                 NavigationLink(
                     destination: ArtView(selectedStyle: style)
                 ) {
-                    Text(style)
+                    Text(style.name)
                 }
             }
         }
@@ -29,12 +29,12 @@ struct MasterView: View {
 }
 
 struct ArtView: View {
-    var selectedStyle: String?
+    var selectedStyle: ArtStyle?
 
     var body: some View {
         Group {
             if selectedStyle != nil {
-                Text(selectedStyle!)
+                Text(selectedStyle!.name)
             } else {
                 Text("Detail view content goes here")
             }
