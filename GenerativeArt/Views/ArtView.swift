@@ -2,7 +2,10 @@ import SwiftUI
 
 struct ArtView: View {
     var style: ArtStyle
-    @State var image: UIImage?
+
+    @State private var image: UIImage?
+    @State private var numColors = 32.0
+    @State var quantity: Int = 0
 
     private let availableColors: [UIColor] = [
         UIColor(red:0.98, green:0.93, blue:0.41, alpha:1.0),
@@ -15,12 +18,14 @@ struct ArtView: View {
 
     var body: some View {
         VStack(spacing: 20) {
+            VStack(alignment: .leading, spacing: 4) {
+                Text("Colors: \(Int(numColors))")
+                ColorsSlider(numColors: $numColors, onEditingChanged: regenerateImage)
+            }.padding([.leading, .trailing])
             Image(uiImage: image ?? UIImage())
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-            Button(action: regenerateImage) {
-                Text("Regenerate Image")
-            }
+            Button("Regenerate Image", action: regenerateImage)
         }
         .navigationBarTitle(Text(style.name))
         .onAppear {
@@ -41,7 +46,7 @@ struct ArtView: View {
 
     private func regenerateImage() {
         image = ImageDrawer.image(style: style,
-                                  colors: makeColors(num: 32),
+                                  colors: makeColors(num: Int(numColors)),
                                   size: CGSize(width: 500, height: 500),
                                   margin: 20)
     }

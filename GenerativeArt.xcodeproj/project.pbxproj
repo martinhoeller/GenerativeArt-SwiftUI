@@ -29,6 +29,7 @@
 		5B3337C823C76C2200BFC0F9 /* Bullseye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337BA23C76C2200BFC0F9 /* Bullseye.swift */; };
 		5B3337CB23C76FA700BFC0F9 /* ArtStyleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337CA23C76FA700BFC0F9 /* ArtStyleListView.swift */; };
 		5B3337CD23C76FC500BFC0F9 /* ArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337CC23C76FC500BFC0F9 /* ArtView.swift */; };
+		5B3337CF23C7840400BFC0F9 /* ColorsSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337CE23C7840400BFC0F9 /* ColorsSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		5B3337BA23C76C2200BFC0F9 /* Bullseye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bullseye.swift; sourceTree = "<group>"; };
 		5B3337CA23C76FA700BFC0F9 /* ArtStyleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtStyleListView.swift; sourceTree = "<group>"; };
 		5B3337CC23C76FC500BFC0F9 /* ArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtView.swift; sourceTree = "<group>"; };
+		5B3337CE23C7840400BFC0F9 /* ColorsSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				5B33379B23C767D700BFC0F9 /* ContentView.swift */,
 				5B3337CA23C76FA700BFC0F9 /* ArtStyleListView.swift */,
 				5B3337CC23C76FC500BFC0F9 /* ArtView.swift */,
+				5B3337CE23C7840400BFC0F9 /* ColorsSlider.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				5B3337C123C76C2200BFC0F9 /* BrokenCircles.swift in Sources */,
 				5B3337BD23C76C2200BFC0F9 /* ArtStyle.swift in Sources */,
 				5B33379A23C767D700BFC0F9 /* SceneDelegate.swift in Sources */,
+				5B3337CF23C7840400BFC0F9 /* ColorsSlider.swift in Sources */,
 				5B3337C823C76C2200BFC0F9 /* Bullseye.swift in Sources */,
 				5B3337C523C76C2200BFC0F9 /* Mosaic.swift in Sources */,
 				5B3337C423C76C2200BFC0F9 /* Mondrian.swift in Sources */,
