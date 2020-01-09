@@ -27,6 +27,8 @@
 		5B3337C623C76C2200BFC0F9 /* TriangularMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337B823C76C2200BFC0F9 /* TriangularMesh.swift */; };
 		5B3337C723C76C2200BFC0F9 /* ChaoticCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337B923C76C2200BFC0F9 /* ChaoticCircles.swift */; };
 		5B3337C823C76C2200BFC0F9 /* Bullseye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337BA23C76C2200BFC0F9 /* Bullseye.swift */; };
+		5B3337CB23C76FA700BFC0F9 /* ArtStyleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337CA23C76FA700BFC0F9 /* ArtStyleListView.swift */; };
+		5B3337CD23C76FC500BFC0F9 /* ArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3337CC23C76FC500BFC0F9 /* ArtView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		5B3337B823C76C2200BFC0F9 /* TriangularMesh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangularMesh.swift; sourceTree = "<group>"; };
 		5B3337B923C76C2200BFC0F9 /* ChaoticCircles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaoticCircles.swift; sourceTree = "<group>"; };
 		5B3337BA23C76C2200BFC0F9 /* Bullseye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bullseye.swift; sourceTree = "<group>"; };
+		5B3337CA23C76FA700BFC0F9 /* ArtStyleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtStyleListView.swift; sourceTree = "<group>"; };
+		5B3337CC23C76FC500BFC0F9 /* ArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +91,7 @@
 				5B3337AB23C76C2200BFC0F9 /* Art Styles */,
 				5B33379723C767D700BFC0F9 /* AppDelegate.swift */,
 				5B33379923C767D700BFC0F9 /* SceneDelegate.swift */,
-				5B33379B23C767D700BFC0F9 /* ContentView.swift */,
+				5B3337C923C76F8600BFC0F9 /* Views */,
 				5B33379D23C767DC00BFC0F9 /* Assets.xcassets */,
 				5B3337A223C767DC00BFC0F9 /* LaunchScreen.storyboard */,
 				5B3337A523C767DC00BFC0F9 /* Info.plist */,
@@ -131,6 +135,16 @@
 				5B3337BA23C76C2200BFC0F9 /* Bullseye.swift */,
 			);
 			path = Styles;
+			sourceTree = "<group>";
+		};
+		5B3337C923C76F8600BFC0F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B33379B23C767D700BFC0F9 /* ContentView.swift */,
+				5B3337CA23C76FA700BFC0F9 /* ArtStyleListView.swift */,
+				5B3337CC23C76FC500BFC0F9 /* ArtView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +220,7 @@
 			files = (
 				5B33379823C767D700BFC0F9 /* AppDelegate.swift in Sources */,
 				5B3337C023C76C2200BFC0F9 /* Stripes.swift in Sources */,
+				5B3337CB23C76FA700BFC0F9 /* ArtStyleListView.swift in Sources */,
 				5B3337C123C76C2200BFC0F9 /* BrokenCircles.swift in Sources */,
 				5B3337BD23C76C2200BFC0F9 /* ArtStyle.swift in Sources */,
 				5B33379A23C767D700BFC0F9 /* SceneDelegate.swift in Sources */,
@@ -214,6 +229,7 @@
 				5B3337C423C76C2200BFC0F9 /* Mondrian.swift in Sources */,
 				5B3337C223C76C2200BFC0F9 /* RandomStripes.swift in Sources */,
 				5B3337C623C76C2200BFC0F9 /* TriangularMesh.swift in Sources */,
+				5B3337CD23C76FC500BFC0F9 /* ArtView.swift in Sources */,
 				5B3337BE23C76C2200BFC0F9 /* Triangles.swift in Sources */,
 				5B33379C23C767D700BFC0F9 /* ContentView.swift in Sources */,
 				5B3337BB23C76C2200BFC0F9 /* CGRect+Convenience.swift in Sources */,
