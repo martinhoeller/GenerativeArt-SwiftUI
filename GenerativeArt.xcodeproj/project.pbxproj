@@ -64,6 +64,7 @@
 		5B3337D023C7D06800BFC0F9 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 		5B3337D423C8E73C00BFC0F9 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
 		5B3337D823C8F64100BFC0F9 /* PaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteView.swift; sourceTree = "<group>"; };
+		5BD5FDF623C907E600232616 /* GenerativeArt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GenerativeArt.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 		5B33379623C767D700BFC0F9 /* GenerativeArt */ = {
 			isa = PBXGroup;
 			children = (
+				5BD5FDF623C907E600232616 /* GenerativeArt.entitlements */,
 				5B3337D223C8CEA800BFC0F9 /* Support */,
 				5B3337AB23C76C2200BFC0F9 /* Art Styles */,
 				5B3337D323C8E6C700BFC0F9 /* Model */,
@@ -404,7 +406,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GenerativeArt/GenerativeArt.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"GenerativeArt/Preview Content\"";
 				DEVELOPMENT_TEAM = TKS37SCD3Z;
 				ENABLE_PREVIEWS = YES;
@@ -415,6 +419,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bluebanana-software.GenerativeArt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -424,7 +429,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GenerativeArt/GenerativeArt.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"GenerativeArt/Preview Content\"";
 				DEVELOPMENT_TEAM = TKS37SCD3Z;
 				ENABLE_PREVIEWS = YES;
@@ -435,6 +442,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bluebanana-software.GenerativeArt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

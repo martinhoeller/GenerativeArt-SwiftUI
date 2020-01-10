@@ -18,15 +18,17 @@ struct ArtView: View {
                 
                 ColorsSlider(numColors: $numColors, onEditingChanged: regenerateImage)
                     .padding([.leading, .trailing])
-
-                Image(uiImage: image ?? UIImage())
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .padding(.all, 20)
-                    .background(Color.black)
-                    .padding(10)
             }
+
+            Image(uiImage: image ?? UIImage())
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .padding(.all, 20)
+                .background(Color.black)
+                .padding(10)
+
             Button("Regenerate Image", action: regenerateImage)
+            Spacer(minLength: 40)
         }
         .onAppear {
             self.regenerateImage()
