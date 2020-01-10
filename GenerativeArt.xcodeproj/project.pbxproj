@@ -92,12 +92,9 @@
 		5B33379623C767D700BFC0F9 /* GenerativeArt */ = {
 			isa = PBXGroup;
 			children = (
+				5B3337D223C8CEA800BFC0F9 /* Support */,
 				5B3337AB23C76C2200BFC0F9 /* Art Styles */,
-				5B33379723C767D700BFC0F9 /* AppDelegate.swift */,
-				5B33379923C767D700BFC0F9 /* SceneDelegate.swift */,
 				5B3337C923C76F8600BFC0F9 /* Views */,
-				5B33379D23C767DC00BFC0F9 /* Assets.xcassets */,
-				5B3337A223C767DC00BFC0F9 /* LaunchScreen.storyboard */,
 				5B3337A523C767DC00BFC0F9 /* Info.plist */,
 				5B33379F23C767DC00BFC0F9 /* Preview Content */,
 			);
@@ -151,6 +148,17 @@
 				5B3337D023C7D06800BFC0F9 /* ShareSheet.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		5B3337D223C8CEA800BFC0F9 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				5B33379723C767D700BFC0F9 /* AppDelegate.swift */,
+				5B33379923C767D700BFC0F9 /* SceneDelegate.swift */,
+				5B33379D23C767DC00BFC0F9 /* Assets.xcassets */,
+				5B3337A223C767DC00BFC0F9 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
