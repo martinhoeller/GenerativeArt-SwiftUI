@@ -2,25 +2,30 @@ import SwiftUI
 
 struct ArtView: View {
     var style: ArtStyle
-    var palette = Palette.standard
 
+    @State private var palette = Palette.standard
     @State private var image: UIImage?
     @State private var numColors = 32.0
     @State private var showingShareSheet = false
 
     var body: some View {
-        VStack(spacing: 20) {
-            ColorsSlider(numColors: $numColors, onEditingChanged: regenerateImage)
-                .padding([.leading, .trailing])
+        VStack(alignment: .center) {
+            VStack(alignment: .leading, spacing: 20) {
+                HStack(spacing: 10) {
+                    Text("Palette:")
+                    PaletteView(palette: palette)
+                }.padding([.leading, .trailing], 15)
+                
+                ColorsSlider(numColors: $numColors, onEditingChanged: regenerateImage)
+                    .padding([.leading, .trailing])
 
-            Group {
                 Image(uiImage: image ?? UIImage())
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .padding(.all, 20)
                     .background(Color.black)
-            }.padding(10)
-
+                    .padding(10)
+            }
             Button("Regenerate Image", action: regenerateImage)
         }
         .onAppear {
